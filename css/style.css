@@ -132,3 +132,17 @@ body {
 .github-link span {
     text-decoration: underline;
 }
+
+@media (max-width: 600px) 
+{
+  .input {
+      display: block;
+      width: 100%;
+  }
+
+  .button {
+      display: block;
+      margin: 1rem 0;
+      width: 100%;
+  }
+}
