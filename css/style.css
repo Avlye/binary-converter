@@ -34,6 +34,7 @@ body {
     background-size: cover;
     height: 100vh;
     z-index: 0;
+    overflow: hidden;
 }
 
 .wrapper {
@@ -77,6 +78,7 @@ body {
     text-align: left;
     padding: 1rem;
     margin: 0 auto 1rem;
+    width: 100%;
 }
 
 .button-highlight {
