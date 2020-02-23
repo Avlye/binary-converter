@@ -132,16 +132,3 @@ body {
 .github-link span {
     text-decoration: underline;
 }
-
-.adsbygoogle {
-    display: block;
-}
-
-#adTop {
-    left:0;
-    position: fixed;
-    text-align:center;
-    top: 0px;
-    width:100%;
-    z-index:999;
-}
