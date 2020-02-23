@@ -1,0 +1,134 @@
+/* General Fonts Settings */
+
+@font-face {
+    font-family: "JetBrains Mono";
+    font-weight: 400;
+    src: url(fonts/JetBrainsMono-Regular.woff);
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    font-weight: 700;
+    src: url(fonts/JetBrainsMono-Bold.woff);
+}
+
+/* Universal Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "JetBrains Mono";
+    font-weight: 400;
+    font-size: 1rem;
+    color: #E2E2E2;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    background: #000;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    z-index: 0;
+}
+
+.wrapper {
+    align-self: center;
+    margin: 0 auto;
+    padding: 2rem 0 0 0;
+    z-index: 1;
+}
+
+.button {
+    display: inline-block;
+    background: none;
+    border: none;
+    color: white;
+    padding: 1rem 3rem;
+    text-align: center;        
+    text-shadow: none;
+}
+
+.input {
+    padding: 1rem;
+    background: none;
+    border: 1px solid #E2E2E2;
+    color: #e2e2e2;
+    border-radius: 0;
+    resize: horizontal;
+    outline: none;
+}
+
+.input::placeholder {
+    color: rgba(226, 226, 226, .6);
+}
+
+/* Main Section Styles */
+
+#error {
+    display: none;
+    background: #C27575;
+    border: 1px solid #850000;
+    color: #CECECE;
+    text-align: left;
+    padding: 1rem;
+    margin: 0 auto 1rem;
+}
+
+.button-highlight {
+    background: #fff;
+    color: #333;
+}
+
+.results {
+    display: block;
+    margin: 1rem 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.column-1 {
+    justify-content: center;
+    opacity: .6;
+}
+
+.column-2 {
+    border: 1px solid #E2E2E2;
+    padding: 1rem;
+    flex: 3;
+}
+
+.copy {
+    display: block;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.copyright, .github-link {
+    display: inline-block;
+}
+
+.github-link {
+    color: #e2e2e2;
+    text-decoration: none;
+}
+
+.github-link span {
+    text-decoration: underline;
+}
