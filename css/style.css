@@ -135,6 +135,10 @@ body {
     text-decoration: underline;
 }
 
+.adsbygoogle {
+    display: block;
+}
+
 @media (max-width: 600px) 
 {
   .input {
