@@ -27,7 +27,8 @@ const result = document.getElementById("result")
 const defaultErrorMessage = error.textContent
 
 btnConvert.onclick = function (e) {
-    e.preventDefault ? e.preventDefault() : (e.returnValue = false)
+    typeof e.preventDefault == 'function' ? 
+        e.preventDefault() : (e.returnValue = false)
     
     if (inputBinary.value.length === 0) {
         error.textContent = "Please type a binary number"
